@@ -1,41 +1,41 @@
 //Задание №1
 console.log('Hello, World!');
-
+//Задание №2
 // You know nothing, Jon Snow!
-
+//Задание №3
 console.log('Robert');
 console.log('Stannis');
 console.log('Renly');
-
+//Задание №4
 console.log(9780262531962)
-
+//Задание №5
 console.log('What Is Dead May Never Die');
-
+//Задание №6
 console.log(81 / 9);
-
+//Задание №7
 console.log(6 - -81);
-
+//Задание №8
 console.log(3 ** 5);
 console.log(-8 / -4);
-
+//Задание №9
 console.log(8 / 2 + 5 - -3 / 2);
-
+//Задание №10
 console.log(70 * (3 + 4) / (8 + 2))
-
+//Задание №11
 console.log(0.39 * 0.22);
-
+//Задание №12
 console.log(Infinity / 10);
-
+//Задание №13
 console.log(NaN + 7);
-
+//Задание №14
 console.log((5 ** 2) - (3 * 7));
-
+//Задание №15
 console.log("\"Khal Drogo's favorite word is \"athjahakar\"\"");  
-
+//Задание №16
 console.log('- Did Joffrey agree?\n- He did. He also said "I love using \\n".');
-
+//Задание №17
 console.log('Win' + 'ter ' + 'came ' + 'for ' + 'the ' + 'House ' + 'of ' + 'Frey.');
-
+//Задание №18
 console.log(String.fromCharCode(126));
 console.log(String.fromCharCode(94));
 console.log(String.fromCharCode(37));
