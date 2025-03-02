@@ -258,3 +258,69 @@ const getHiddenCard = (cardNumber, starsCount = 4) => {
 
 
 //Заданиие №60
+
+function whoIsThisHouseToStarks(family) {
+    if (family === 'Karstark' || family === 'Tally') {
+      return 'friend'
+    } else if (family === 'Lannister' || family === 'Frey') {
+      return 'enemy'
+    } else return 'neutral'
+  }
+
+  
+//Заданиие №61
+
+
+
+
+//Заданиие №62
+
+
+
+
+//Заданиие №63
+
+
+
+
+//Заданиие №64
+
+
+
+//Заданиие №65
+
+
+
+
+//Заданиие №66
+
+
+
+
+
+//Заданиие №67
+
+
+
+
+//Заданиие №68
+
+
+
+
+//Заданиие №69
+
+
+
+//Заданиие №70
+
+
+
+
+//Заданиие №71
+
+
+
+
+//Заданиие №72
+
