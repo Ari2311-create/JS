@@ -270,6 +270,61 @@ function whoIsThisHouseToStarks(family) {
   
 //Заданиие №61
 
+//* сделала несколько вариантов решений - ничего не подошло, toUpperCase выдает что нет такой функции
+
+1. function convertText(string) {
+  const firstChar = string.slice[0, 1]
+  if (firstChar.toUpperCase()) {
+   return string.reverse()
+  }
+     return string
+ }
+  
+ 2. function convertText(string) {
+  const firstChar = string.slice[0, 1]
+  if (firstChar.toUpperCase()) {
+   return string
+  } else return string.reverse()
+ }
+
+ 3. function convertText(string) {
+  const firstChar = string.slice[0, 1]
+  const upp = firstChar.toUpperCase()
+  if (string === upp) {
+    return string
+  } if (string === '') {
+    return ''
+  }
+  else return string.reverse()
+}
+
+4.  function convertText(string) {
+  const firstChar = string.slice[0, 1]
+  const upp = firstChar.toUpperCase
+  return (upp) ? string : string.reverse()
+}
+
+// 5.  тут выдает что нет токена '{'
+function convertText(string) {
+  const firstChar = string.slice[0, 1]
+if (firstChar !== firstChar.toUpperCase()) {
+  return string.reverse()
+} 
+else (string === '') {
+  return ''
+}
+return string
+}
+
+6. function convertText(string) {
+  const firstChar = string.slice[0, 1]
+    if (string === '') {
+      return ''
+    }
+return (firstChar !== firstChar.toUpperCase) ? string.reverse() : string
+}
+  // сделала примерно как в решении но опять выдает что не читает toUpperCase
+// пробовала просто хотя бы сделать только чтобы без заглавной было наоборот, но на ответ отвечают что он не defined
 
 
 
