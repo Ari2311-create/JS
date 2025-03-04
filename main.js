@@ -326,7 +326,11 @@ return (firstChar !== firstChar.toUpperCase) ? string.reverse() : string
   // сделала примерно как в решении но опять выдает что не читает toUpperCase
 // пробовала просто хотя бы сделать только чтобы без заглавной было наоборот, но на ответ отвечают что он не defined
 
-
+function f1(word) {
+   
+    return word.toUpperCase()
+}
+// это тоже...
 
 //Заданиие №62
 
