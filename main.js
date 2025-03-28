@@ -367,7 +367,16 @@ return sum
 
 //Заданиие №65
 
+function joinNumbersFromRange(number, times) {
+let result = ''
+let i = number
 
+while (i <= times) {
+result = result + i
+i = i + 1
+}
+return result
+}
 
 
 //Заданиие №66
