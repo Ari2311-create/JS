@@ -452,7 +452,21 @@ const filterString = (str, char) => {
 
 //Заданиие №70
 
-
+function makeItFunny(str, n){
+let i = 0
+let result = ''
+while ( i < str.length){
+  const last = str[i]
+if ((i + 1) % n === 0){
+  result = result + last.toUpperCase()
+}
+else {
+  result = result + last
+}
+i++
+}
+return result
+}
 
 
 //Заданиие №71
