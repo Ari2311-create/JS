@@ -339,7 +339,17 @@ function f1(word) {
 
 //Заданиие №63
 
+function printNumbers(number) {
+let i = 1
 
+while (number >= i) {
+  console.log(number)
+  number = number - 1
+
+}
+console.log('finished!')
+
+  }
 
 
 //Заданиие №64
