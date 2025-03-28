@@ -393,12 +393,37 @@ function printReversedWordBySymbol(word) {
 
 //Заданиие №67
 
+function countChars(str, char) {
+let i = 0
+let count = 0
+  while (i < str.length) {
+    if (str[i].toLowerCase() === char.toLowerCase()) {
+      
+      count = count + 1;
+    }
+   
+    i = i + 1;
+  }
 
+  return count;
+};
 
 
 //Заданиие №68
 
+function even(str) {
+  let i = 0;
+  let result = '';
+  while (i < str.length) {
+    if (i % 2 !== 0) {
+    result = `${result}${str[i]}`;
+    }
+    i = i + 1;
+  }
 
+  return result;
+};
+//почему не равно 0; и как в решении что стр раньшу идет чем результат
 
 
 //Заданиие №69
