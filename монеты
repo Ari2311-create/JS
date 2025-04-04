@@ -1,0 +1,72 @@
+function f2(number) {
+    const a = 1
+    const b = 5
+    const c = 10
+    let sum = 0
+    
+    if (number > c) {
+        //console.log('number>c')
+       let first = number / c
+       let first1 = Math.floor(first) // может floor? было раунд
+       let del = number % c 
+           sum = sum + first1
+    if (del = b) {
+        sum = sum + 1 
+        if (del == a){
+            sum = sum = 1
+    if (del > 0 && del > b) {
+       let second = del / b
+       // let second1 = Math.round(second)
+        let del1 = del % b
+        let del2 = Math.round(del1)
+            sum = sum + 1  //изменила секонд1 на 1, остаток округлила
+    if (del2 > a) {
+            let third = del2 / a
+            //let third1 = Math.round(third)
+         sum = sum + third
+            return sum
+    }
+    }
+        }   
+    }
+    }
+    
+    if (number == c) {
+       // console.log('number=c')
+        let first = number / c
+       sum = sum + 1
+        return sum
+    } if (number == b) {
+        let first = number / b
+        sum = sum + 1
+        return sum
+    }
+    if (number < b) {
+        //console.log('number<c')
+            let third = number / a
+            sum = sum + third
+            return sum
+    }
+    if (number < c && number > b) {
+        let second = number / b
+   // let second1 = Math.round(second)
+    let del = number % b 
+        let del1 = Math.round(del1)
+    sum = sum + 1 // тоже самое
+        if (del1 ==a) {
+            sum = sum + 1
+            
+    if (del1 > a ) {
+        let third = del1 / a
+        //let third1 = Math.round(third)
+        sum = sum + third
+        return sum
+    }
+    }
+    }
+    if (number == a){
+        sum = sum + 1 
+        return sum 
+    }
+        
+    }
