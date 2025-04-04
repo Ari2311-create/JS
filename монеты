@@ -1,3 +1,88 @@
+
+// результат :
+function f3(number) {
+    const a = 1;
+    const b = 5;
+    const c = 10;
+    let sum = 0;
+
+    if (number > c) {
+        let first = Math.floor(number / c);
+        let del = number % c; 
+        sum += first;
+
+        if (del === b) {
+            sum += 1; 
+        } 
+
+        if (del === a) {
+           // sum += 1;
+        }
+
+        if (del === 0) {
+            // ничего не добавляем, так как уже сделали дележ на c
+        } else if (del < b) {
+            let ar = del / a;
+            sum += ar;
+        } else if (del > 0 && del > b) {
+            let second = Math.floor(del / b);
+            sum += second; 
+            let del1 = del % b;
+            let del2 = Math.round(del1);
+            //sum += 1; 
+
+            if (del2 > a || del2 == a) {
+                let third = del2 / a;
+                sum += third;
+
+        
+            }     
+        }
+    } else if (number === c) {
+        sum += 1;
+    } else if (number === b) {
+        sum += 1;
+    } else if (number < b) {
+        let third = number / a;
+        sum += third;
+    } else if (number < c && number > b) {
+        let second = Math.floor(number / b);
+        let del = number % b; 
+        sum += second;
+        let del1 = Math.round(del);
+
+        if (del1 === a) {
+            sum += 1;
+        } else if (del1 > a) {
+            let third = del1 / a;
+            sum += third;
+        }
+    } else if (number === a) {
+        sum += 1; 
+    }
+
+    return sum; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+// /////////////////////////////
+
+
+
+
+
+
 function f2(number) {
     const a = 1
     const b = 5
