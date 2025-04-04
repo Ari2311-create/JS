@@ -70,3 +70,51 @@ function f2(number) {
     }
         
     }
+
+
+
+
+// /////////////////////////////////// это работает но не правильно
+
+
+function f6(number) {
+    const a = 1
+    const b = 5
+    const c = 10
+    let sum = 0
+    if (number > c) {
+        //console.log('number>c')
+       let first = number / c
+        let first1 = Math.round(first)
+       sum = sum + first1
+        if (first1 > b) {
+       let second = first1 / b
+            let second1 = Math.round(second)
+            sum = sum + second1
+        if (second1 > a) {
+            let third = second / a
+            let third1 = Math.round(third)
+            sum = sum + third1
+            return sum
+    }
+    } 
+    }
+    if (number == c) {
+       // console.log('number=c')
+        let first = number / c
+       sum = sum + 1
+        return sum
+    } 
+    if (number < c) {
+        //console.log('number<c')
+        let second = number / b
+            let second1 = Math.round(second)
+            sum = sum + second1
+        if (second1 > a) {
+            let third = second / a
+            sum = sum + third
+            return sum
+    }
+    } 
+    }
+
