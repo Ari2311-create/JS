@@ -203,3 +203,44 @@ function f6(number) {
     } 
     }
 
+
+// ///////////////// чтобы монеты тоде вводились 
+
+function ff(monet, sum) { 
+    console.log(monet, sum)
+    // to do realice lodgic!!!!
+const x = Math.floor(sum / monet) 
+const y = sum % monet
+
+    
+    // возвращает число монет первым значением (x) и вторым значением остаток от деления 
+    return [x, y]
+}
+
+const calcmonet = (arr, sum) => {
+  let result = 0;
+  let d = sum
+  for (let i = 0; i < arr.length; i += 1) {
+     
+    const [money, del] = ff(arr[i], d)
+      result = result + money
+      d = del
+  }
+  return result;
+}
+
+// //////////////// проще 
+
+function ff(monet, sum) { return [Math.floor(sum / monet) , sum % monet]}
+
+const calcmonet = (arr, sum) => {
+  let result = 0;
+  let d = sum
+  for (let i = 0; i < arr.length; i += 1) {
+     
+    const [money, del] = ff(arr[i], d)
+      result = result + money
+      d = del
+  }
+  return result;
+}
