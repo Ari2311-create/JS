@@ -1,1 +1,158 @@
+//1
+<p style="font-size: 25px;">Первое изменение стиля с помощью CSS</p>
+//2
+<p style="font-size: 12px;">World</p>
+//3
+<div style="font-size: 20px;">
+  hhvhvv
+  <p style="font-size: 10px;">ffccgv</p>
+</div>
+//4
+<style>
+  p {
+    font-size: 10px;
+  }
+  </style>
+  <p>huhuhuhh</p>
+//5
+<style>
+  h1 {
+    font-size: 20px;
+  }
+  </style>
+  <h1>yguhguhu</h1>
+//6
+<p class="news">
+  nnNNuhhbdcb
+  </p>
+  <style>
+    .news {
+      color: #553333
+    }
+    </style>
+//7
+<p id="red" class="bold">
+rftgvgvhgv
+</p>
+<style>
+  #red {
+    color: red;
+  
+  }
+  .bold {
+    font-weight: bold;
+  }
+  </style
+//8
+<p class="cascade">
+  hbyyhbbhbu
+  </p>
+  <style>
+    .cascade {
+      font-size: 25px;
+    }
+    p {
+      padding: 15px;
+    }
+    </style>
+//9
+<p class="border" id="no-border">
+  ggvgybhb
+  </p>
+  <style>
+    .border {
+      border: 1px solid #000;
+    }
+    #no-border { 
+     border: none 1px none #000;
+    }
+    </style>
+//10
+<p><span class="violet">ARI</span> ggbv gvgh</p>
+<style>
+  .violet {
+    color: #9400d3;
+  }
+  </style>
+//11
+<p class="important">fvgrbtghbg</p>
+<style>
+  .important {
+    text-align: center;
+  }
+  </style>
+//12
+<p class="big">fevgfvgfb</p>
+<style>
+  .big {
+    font-size: 60px;
+  }
+  </style>
+//13
+<p class="weight"> hbhbjhkbhbh</p>
+<style>
+  .weight {
+    font-weight: bold;
+  }
+  </style>
+//14
+<p class="italic-type"> gvtgvjb</p>
+<style>
+  .italic-type {
+    font-style: oblique;
+  }
+  </style>
+  
+//15
+<p class="small-capitals">jhnjnki</p>
 
+<style>
+  .small-capitals {
+    font-variant: small-caps;
+  }
+  </style>
+//16
+
+//17
+
+//18
+
+//19
+
+//20
+
+//21
+
+//22
+
+//23
+
+//24
+
+//25
+
+//26
+
+//27
+
+//28
+
+//29
+
+//30
+
+//31
+
+//32
+
+//33
+
+//34
+
+//35
+
+//36
+
+//37
+
+//38
