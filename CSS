@@ -168,17 +168,75 @@ rftgvgvhgv
 
 
 //21
-
+<style>
+  .border-bold {
+    border: 5px solid #2196F3;
+  }
+  </style>
+  <div class="border-bold">
+  djdjddjfnfn
+  </div>
+    
 //22
-
+<div class=background>
+  Wsjshfnri
+  </div>
+  <style>
+    .background {
+      color:#ffffff;
+      background-color: #2196f3
+    }
+    </style
 //23
-
+1<style>
+2  .padding {
+3    padding: 10px 20px 15px 20px;
+4
+5    color: #fff;
+6    background-color: #000;
+7  }
+8</style>
+9
+10<p class="padding">What does a front-end developer do? They create web pages using HTML and CSS. They are proficient in using the features of Flex and Grid modules. They use the SASS preprocessor, the Pug templating engine, and build projects with Gulp. They ensure website accessibility by creating semantically correct markup. They create components and utilities using Bootstrap. They also create responsive projects.</p>
+11
 //24
+<div class=margin>
+  kcmfvmfvjnrbvi
+  </div>
+  <style>
+    .margin {
+      margin: 20px;
 
+    }
+    </style>
 //25
+<div class="rectangle">
 
+</div>
+<style>
+  .rectangle {
+    width: 300px;
+    height: 100px;
+    background-color: #000;
+  }
+  </style>
 //26
+<style>
+   .card-hello {
+     width: 230px;
+     height: 25px;
+     padding: 20px;
+     margin: 10px;
+     color: #fff;
+     font-size: 20px;
+     background-color: #fa7268;
+   border: 2px solid #9c27b0;
+    
+  }
 
+  
+</style>
+<div class="card-hello">Hello</div>
 //27
 
 //28
