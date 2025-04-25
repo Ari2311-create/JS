@@ -333,21 +333,108 @@ rftgvgvhgv
 28  <div class="question">Which programming languages are most in demand in 2023?</div>
 29  <div class="arrow">→</div>
 30  <div class="answer">Python and JavaScript remain the most popular languages to learn in 2023</div>
-31</div>
+31</di>
 32
 
 //31
+<style>
+  .qa {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font: 18px/1.5 sans-serif;
+
+  }
+
+  .question {
+    width: 400px;
+    padding: 20px;
+
+    color: #fff;
+    background: #8ea7e9;
+  }
+
+  .answer {
+    width: 400px;
+    padding: 20px;
+  }
+
+  .arrow {
+    flex-grow: 1;
+    text-align:center;
+    margin: 0 10px;
+  }
+</style>
+
+<div class="qa">
+  <div class="question">Какие языки программирования наиболее востребованы в 2023?</div>
+  <div class="arrow">→</div>
+  <div class="answer">Самыми популярными языками для изучения в 2023 году остаются Python и JavaScript</div>
+</div>
 
 //32
-
+нет задания */
 //33
+<div class="header">
+  <p class="offer"></p>
+</div>
+<style>
+  .header {
+    font-size: 22px;
+  }
 
+  .offer{
+    font-size: 200%;
+  }
+</style>
 //34
-
+<p class="background-black-50"></p>
+<style>
+  .background-black-50 {
+     background-color: rgba(0, 0, 0, 0.5)
+  }
+</style>
 //35
-
+<p class="white-text-mobile"></p>
+<style>
+  @media (max-width: 750px){
+  .white-text-mobile {
+  color: #000000;
+  }
+  }
+</style>
 //36
+<p class="black-white"></p>
+<style>
+  .black-white {
+    @keyframes color-change {
+  0% {
+    color: black;
+  }
+
+  100% {
+    color: white;
+  }
+}
+
+ animation: color-change 3s infinite;
+  }
+</style>
+
 
 //37
-
+<style>
+:root {
+  --main-blue: #00bfff;
+}
+</style>
 //38
+<div class=" relative-position"></div>
+<style>
+  .relative-position {
+    position: relative;
+    top: 100px;
+    right: 50px;
+  }
+</style>
