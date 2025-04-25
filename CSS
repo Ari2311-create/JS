@@ -238,7 +238,15 @@ rftgvgvhgv
 </style>
 <div class="card-hello">Hello</div>
 //27
-
+<div class=qa>
+  <div class=question>Какие языки программирования наиболее востребованы в 2023?</div>
+  <div class=answer>Самыми популярными языками для изучения в 2023 году остаются Python и JavaSript</div>
+</div>
+ <style>
+  .qa {
+    display: flex;
+  }
+  </style>
 //28
 
 //29
