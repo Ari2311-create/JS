@@ -112,14 +112,60 @@ rftgvgvhgv
   }
   </style>
 //16
-
+<p class="line">
+ dhdhdhdgdde
+ </p> 
+ <style>
+  .line {
+    text-decoration: underline
+  }
+  </style>
+  
 //17
-
+ <pre>
+<p class="line-height">
+  whshdhdjdjdjdjd
+  hhhuhjjj
+  hhghhjjjjjj
+</p>
+</pre>
+<style>
+  .line-height {
+    font-size: 24px;
+  }
+  .line-height {
+    line-height: 36px;
+  }
+</style>
 //18
+<p class=verdana-text>
+  ygvygberiuhreciuerhc
+  </p>
+  <style>
+    .verdana-text{
+      font-family: Verdana, sans-serif;
+    }
+</style>
 
 //19
-
+<p class=bold-text>
+  hdchrcurhcudujejch d
+  </p>
+  <style>
+    .bold-text {
+      font: bold 24px Verdana, sans-serif;
+    }
+    </style>
 //20
+<p class=text>
+  hdchrcurhcudujejch d
+</p>
+<style>
+  .text {
+    font: italic bold 24px Verdana, sans-serif;
+  }
+</style>
+
 
 //21
 
